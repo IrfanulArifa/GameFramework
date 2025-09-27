@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/IrfanulArifa/GameFramework.git", :tag => "#{s.version}" }
   s.framework = "UIKit"
   s.ios.deployment_target = "13.0"
-  s.source_files = "Core/**/*.{swift}"
+  s.source_files = "Game/**/*.{swift}"
   s.vendored_frameworks = "Game"
   s.swift_version = "5.1"
 end
