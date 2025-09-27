@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.platform = :ios
-  s.name             = "Game"
+  s.name             = "GameFramework"
   s.version          = "0.1.0"
   s.summary          = "A simple iOS game framework."
   s.requires_arc     = true
@@ -9,9 +9,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Irfanul Arifa" => "arifa.aja16@gmail.com" }
   s.source           = { :git => "https://github.com/IrfanulArifa/GameFramework.git", :tag => "#{s.version}" }
-  s.framework = "UIKit"
+  s.frameworks       = "UIKit"
   s.ios.deployment_target = "13.0"
-  s.source_files = "Game/**/*.{swift}"
-  s.vendored_frameworks = "Game"
-  s.swift_version = "5.1"
+  s.source_files     = "Game/**/*.{swift}"
+  s.swift_version    = "5.1"
 end
