@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.platform = :ios
-  s.name             = "Game"
+  s.name             = "GameFramework"
   s.version          = "0.1.0"
   s.summary          = "A simple iOS game framework."
   s.requires_arc     = true
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.framework = "UIKit"
   s.ios.deployment_target = "13.0"
   s.source_files = "Game/**/*.{swift}"
-  s.vendored_frameworks = "Game"
+  s.vendored_frameworks = "GameFramework"
   s.swift_version = "5.1"
 end
